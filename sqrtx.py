@@ -19,3 +19,12 @@ class Solution(object):
     @staticmethod
     def guess(v, x):
         return v * v <= x
+
+    def mySqrt2(self, x):
+        # 牛顿迭代法
+        if x == 0: return 0
+        last, res = 0, 1
+        while res != last:
+            last = res
+            res = (res + x / res) / 2
+        return res
