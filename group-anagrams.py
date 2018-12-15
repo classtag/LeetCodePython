@@ -4,7 +4,6 @@ from collections import defaultdict
 
 
 class Solution:
-
     def groupAnagrams(self, strs):
         """
         :type strs: List[str]

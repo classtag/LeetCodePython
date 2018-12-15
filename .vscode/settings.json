@@ -1,0 +1,13 @@
+{
+  "python.pythonPath": "/Users/duoan/.pyenv/versions/leetcode/bin/python",
+  "python.formatting.provider": "yapf",
+  "files.autoSave": "afterDelay",
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "python.formatting.yapfArgs": [
+    "--style",
+    "{based_on_style: chromium, indent_width: 2, spaces_before_comment: 1}"
+  ],
+  "autoDocstring.docstringFormat": "numpy"
+}

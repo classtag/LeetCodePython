@@ -8,13 +8,13 @@
 
 class Solution:
 
-    def reverseList(self, head):
-        """
-        思路：把每一个节点的next指向当前节点的前驱节点
-        :type head: ListNode
-        :rtype: ListNode
-        """
-        cur, prev = head, None
-        while cur:
-            cur.next, prev, cur = prev, cur, cur.next
-        return prev
+  def reverseList(self, head):
+    """
+    思路：把每一个节点的next指向当前节点的前驱节点
+    :type head: ListNode
+    :rtype: ListNode
+    """
+    cur, prev = head, None
+    while cur:
+      cur.next, prev, cur = prev, cur, cur.next
+    return prev

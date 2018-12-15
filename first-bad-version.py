@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+
 class SVNRepo:
     @classmethod
     def isBadVersion(cls, id):

@@ -3,7 +3,6 @@
 
 
 class Solution:
-
     def rob(self, nums):
         if not nums:
             return 0

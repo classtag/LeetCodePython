@@ -26,7 +26,8 @@ class Solution:
             if new_target >= 0:
                 new_combination = copy.copy(combination)
                 new_combination.append(candidate)
-                self.recurse(candidates, new_target, new_combination, i, result)
+                self.recurse(candidates, new_target, new_combination, i,
+                             result)
             else:
                 break
 

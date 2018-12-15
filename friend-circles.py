@@ -2,7 +2,6 @@
 
 
 class Solution:
-
     def findCircleNum(self, M):
         """
         :type M: List[List[int]]
@@ -19,7 +18,8 @@ class Solution:
 
             def find_set(self, x):
                 if self.set[x] != x:
-                    self.set[x] = self.find_set(self.set[x])  # path compression.
+                    self.set[x] = self.find_set(
+                        self.set[x])  # path compression.
                 return self.set[x]
 
             def union_set(self, x, y):

@@ -3,7 +3,6 @@ from collections import defaultdict
 
 
 class Solution:
-
     def numBusesToDestination(self, routes, S, T):
         """
         :type routes: List[List[int]]
